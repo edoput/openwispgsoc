@@ -18,8 +18,8 @@ email: edoardo.putti@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
     This is the report for my 2017 GSOC
     project
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://edoput.github.io/openwispgsoc" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/openwispgsoc" # the subpath of your site, e.g. /blog
+url: "https://edoput.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
