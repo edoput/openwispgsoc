@@ -1,0 +1,25 @@
+---
+layout: post
+title: 5K
+date:   2017-07-07
+categories: netjsonconfig
+---
+
+The second month was all about reaching feature parity with the web interface and adding tests. Unfortunately the update from AirOS 8.1.4 to 8.3.1 changed many things and I had to scrap much of my tests and code.
+
+Now that I write about it I get to see that I did a lot of work during this month. Eventually everything I had to work on fit in what I could see was required, seems like a miracle.
+
+During the second half my mentors asked me to begin working on the pull request [#91][91] to include my work upstream.
+
+I spent much of the third week just browsing the comments on the pull request searching for what to change to satisfy the reviews.
+
+This was a hell of a work as my code approached 3000 lines and had a lot of stylistic problems. I had a lot to fight with flake and other tools for finding common pitfalls in Python but eventually I had the time to make them happier.
+
+Moreover I had a [misterious bug][misterious-issue] that I could reproduce but didn't make much sense. This was about the schema, and object that is used for validation, and how we updated it to fit into the AirOS backend. My mentor came up with a workaround but it's still there.
+
+During the last week I had to work more on the schema and provide all the useful information that would go in the netjsonconfig web editor, another OpenWISP project. It has been a refreshing task as every change had a visual meaning and most important, fast feedback!
+
+One last thing for this month was the great splitting. I began splitting all I could think of into modules, interface helpers, configuration defaults, update functions and refactoring what couldn't be separated from it's converter.
+
+[misterious-issue]: https://github.com/openwisp/netjsonconfig/issues/93
+[91]: https://github.com/openwisp/netjsonconfig/pull/91

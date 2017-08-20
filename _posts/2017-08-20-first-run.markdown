@@ -1,0 +1,33 @@
+---
+layout: post
+title: First run
+date:   2017-06-09
+categories: netjsonconfig
+---
+
+With the summer of code first month officialy started I got to work on more pressing (for me) problems, such as error reporting in netjsonconfig command line interface.
+
+I decided to throw some time at it because I really didn't know anything about networks and this was a problem when writing NetJSON configuration. I couldn't get much but the simpler case to work and when it didn't work it was like a misterious murder investigation.
+
+Eventually I got it working and the prepared a pull request [#84][84] for upstream. This has changed much of the experience as now I had a fully cooperating tool to work with. In retrospect without this I couldn't have done this much.
+
+Then with all the yak shawed on the netjsonconfig front I had one thing to set my mind on, hardware testing.
+
+The Ninux group here in Firenze agreed to let me have one device to work on and during this month they tried teaching me useful things such as the reset procedure, having different profiles on my laptop, setting up connections and more.
+
+Eventually I got all this working and begun learning how that thing worked, how it can update the antenna configuration from a file, what commands are important and what do they do.
+
+This period was also about poking the web interface, trying different configuration and downloading the associated file, diffing what files I had to see what would change between two states and so on.
+
+In the end I got more "scientific" and came up with a reproducible protocol for how to do things.
+
+1. Reset the antenna
+2. Put it in the desired state
+3. Download the configuration
+4. Write a netjson for the very same configuration
+5. Generate the file with netjsonconfig
+6. Save the diff between the two
+
+Even with this protocol things got ugly because I didn't get consistent results and the device doesn't like to experience a sequence of reset.
+
+[84]: https://github.com/openwisp/netjsonconfig/pull/84

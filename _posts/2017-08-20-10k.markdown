@@ -1,0 +1,22 @@
+---
+layout: post
+title: 10K
+date:   2017-08-04
+categories: netjsonconfig
+---
+
+The last month began extremely weel as I had finally created my monster. One part of the configuration is obviously dedicated to the radio interface and is very device dependent. A device with two antennas, e.g. one for 2GHz and one for 5GHz, cannot be configured with my single antenna configuration. But I also had to ship something that would work on mine!
+
+In the end we decided to include the radio configuration as a blob and update just what was necessary, maybe in the future we will have something better but it worked on my device. And it was glourious! I finally didn't have to copy and paste someting before uploading it!
+
+I also participated at the ICFP contest with the LILIK team, it took all the weekend and was a lot of fun to play, I look forward for the next one! 
+
+At this point time was running out and I still had something to work on, feel the rush?
+
+But there was no rush! I could configure the antenna in bridge mode with wathever combination of network and authentication I could think of and I had the initial support for router mode with my mentors ready to help with situations such as "It happened again, I can't get in when it's in router mode".
+
+But this thing has ended without this support for router mode, it's a shame but the configuration closely match the one I can get from the device and still won't work when applied. I did various tests and now I have an hypothesis for other to work on.
+
+Possibly there is some "hard" switch, a procedure I still haven't found, to be executed before switching from bridge to router mode (and viceversa) that leaves the antenna in a broken middle ground state.
+
+You can find
