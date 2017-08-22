@@ -5,7 +5,7 @@ date:   2017-05-04
 categories: netjsonconfig
 ---
 
-This year I got interested in a community network project called [Ninux][ninux-firenze] in Firenze and this is how I got in touch with [Gabriele][gabri] who later ... me to apply for a GSOC project with OpenWISP.
+This year I got interested in a community network project called [Ninux][ninux-firenze] in Firenze and this is how I got in touch with [Gabriele][gabri] who later convinced me to apply for a GSOC project with OpenWISP.
 
 I had two projects I could choose from and I got interested more in adding a backend to [netjsonconfig][netjsonconfig].
 
@@ -24,3 +24,5 @@ The project goal is to be able to output this configuration file from an initial
 With this in mind the journey started and I had to find a device to test and sample configurations.
 
 [ninux-firenze]: http://www.firenze.ninux.org/
+[gabri]: https://github.com/gabri94
+[netjsonconfig]: http://netjsonconfig.openwisp.org/en/stable/
