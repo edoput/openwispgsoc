@@ -4,9 +4,10 @@ title: About this project
 permalink: /about/
 ---
 
-You can find a longer description of my work as posts [here]({{ site.baseurl }}{% link index.md %})
+You can find a longer description of my work during (and after GSOC) as blog posts [here]({{ site.baseurl }}{% link index.md %})
 
-You can find more information about this project goal on the [issue page of my fork][my-fork-issues]
+If you are interested in using netjsonconfig-airos I suggest you take a look at [the documentation](https://netjsonconfig-airos.readthedocs.io/en/latest/)
+and get in contact with me or, better, start asking questions on the [mailing list](https://groups.google.com/g/openwisp).
 
 What got included
 -----------------
